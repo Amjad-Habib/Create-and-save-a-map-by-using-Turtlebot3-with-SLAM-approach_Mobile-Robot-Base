@@ -9,7 +9,6 @@ $ sudo apt-get install ros-melodic-turtlebot3-msgs
 $ sudo apt-get install ros-melodic-turtlebot3
 ```
 ### 2. Set TurtleBot3 Model Name
-choose the Trurtlebot you want to work with: 
 
 In case of TurtleBot3 Burger
 ```
@@ -22,7 +21,6 @@ echo "export TURTLEBOT3_MODEL=waffle_pi" >> ~/.bashrc
 
 
 ## Simulation
-After choosing the Trurtlebot you need to run it in an environment using a simulation, and you can use:
 
 ### Gazebo Simulation
 #### 1. Install Simulation Package
@@ -34,7 +32,7 @@ $ cd ~/catkin_ws && catkin_make
 ```
 
 #### 2. Launch Simulation World
-There are 3 simulation environments prepared for TurtleBot3, you can select any one of these environments to launch Gazebo:
+Three simulation environments are prepared for TurtleBot3. Please select one of these environments to launch Gazebo.
 ##### 1 ) Empty World
 ```
 $ export TURTLEBOT3_MODEL=burger
