@@ -26,6 +26,7 @@ After choosing the Trurtlebot you need to run it in an environment using a simul
 
 ### Gazebo Simulation
 #### 1. Install Simulation Package
+Open a new terminal.
 ```
 $ cd ~/catkin_ws/src/
 $ git clone -b melodic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
@@ -68,6 +69,7 @@ $ roslaunch turtlebot3_gazebo turtlebot3_world.launch
 ![SLAM Node](https://user-images.githubusercontent.com/85652061/125994378-b65d3860-68ae-49e4-9b48-3bc3fb8242a5.png)
 
 #### 2. Run SLAM Node
+Open a new terminal.
 ```
 $ export TURTLEBOT3_MODEL=burger
 $ roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
@@ -76,12 +78,14 @@ $ roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
 
 
 #### 3. Run Teleoperation Node
+Open a new terminal.
 ```
 $ export TURTLEBOT3_MODEL=burger
 $ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 ```
 
 #### 4. Save Map
+Open a new terminal.
 ```
 $ rosrun map_server map_saver -f ~/map
 ```
