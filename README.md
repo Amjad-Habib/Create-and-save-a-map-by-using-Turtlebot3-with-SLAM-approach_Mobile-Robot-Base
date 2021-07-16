@@ -80,7 +80,6 @@ $ roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
 $ export TURTLEBOT3_MODEL=burger
 $ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 ```
-![Map1](https://user-images.githubusercontent.com/85652061/125994684-77e86229-860e-49a0-8698-9831d1dbb07b.png)
 
 #### 4. Save Map
 ```
